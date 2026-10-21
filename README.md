@@ -12,17 +12,19 @@
 
 ## 下载与发布状态
 
-目前尚未提供正式公开安装包，应用内在线更新尚未启用。
+当前可下载 **1.0.2（构建号 3）**，提供手动下载安装；应用内在线更新清单尚未更新至此版本。
 
-正式版本将通过本仓库的 [Releases](https://github.com/stillflow-lab/YixiuRest-Releases/releases) 提供。版本、适用机型、安装说明和校验信息以各次发布说明为准。
+[下载 Apple 芯片版 DMG](https://github.com/stillflow-lab/YixiuRest-Releases/releases/download/v1.0.2/YixiuRest-1.0.2-arm64.dmg) · [版本说明与 SHA-256 校验文件](https://github.com/stillflow-lab/YixiuRest-Releases/releases/tag/v1.0.2)
 
-系统要求：macOS 14 或更高版本。首个安装包计划支持 Apple 芯片 Mac；Intel 版本尚未提供。
+系统要求：macOS 14 或更高版本。当前安装包支持 Apple 芯片 Mac；Intel 版本尚未提供。
 
 ## 安装与更新
 
-正式安装包发布后，打开 DMG，将「一休Rest」拖入「应用程序」，再从「应用程序」启动，通过菜单栏使用。
+打开 DMG，将「一休Rest」拖入「应用程序」，再从「应用程序」启动，通过菜单栏使用。
 
 手动更新前请先退出旧版，再替换应用。保留原有应用数据，以继续使用已保存的偏好和历史记录。
+
+当前安装包使用 ad-hoc 签名，未经 Apple Developer ID 签名或 Apple 公证。macOS 可能阻止首次打开，请确认来源后按系统提示处理，不要关闭系统安全保护。线上安装升级尚未验证。
 
 ## 问题反馈
 
