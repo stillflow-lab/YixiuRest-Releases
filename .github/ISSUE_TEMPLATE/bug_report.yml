@@ -1,0 +1,30 @@
+name: 问题反馈
+description: 报告一休Rest 的使用问题
+title: "[问题] "
+body:
+  - type: input
+    id: app-version
+    attributes:
+      label: 应用版本
+      description: 请填写版本号和构建号（如有）。
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: 系统与设备
+      description: macOS 版本、Apple 芯片或 Intel。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请描述操作步骤、实际结果和预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 补充信息
+      description: 可补充截图或日志，上传前请移除个人信息。
